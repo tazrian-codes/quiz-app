@@ -43,7 +43,7 @@ function App() {
   return (
     <div className='flex items-center justify-center h-screen bg-[rgb(242,255,255)]'>
       
-        <div className="w-7/12 border border-gray-600 rounded-md
+        <div className="w-10/12 md:7/12 max-w-96 border border-gray-600 rounded-md
           shadow-[0px_0px_10px_rgba(0,0,0,0.3)]">
 
           <div className="bg-[#087e79] text-white p-2 mb-5
@@ -52,7 +52,7 @@ function App() {
           </div>
 
           <div className='flex justify-start p-4 font-semibold'>
-            <h3 className="text-xl text-[#05534f]">
+            <h3 className="md:text-xl text-[#05534f]">
                { questions[currentQues].question } 
             </h3>
           </div>
